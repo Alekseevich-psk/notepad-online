@@ -1,0 +1,51 @@
+.main {
+    display: block;
+    position: relative;
+    background-color: $bg-color;
+    height: 100vh;
+    padding-top: 8%;
+
+    &__wrap {
+        text-align: center;
+
+        svg {
+            margin-left: 20px;
+            fill: $whiteText;
+            width: 120px;
+            height: 120px;
+        }
+
+        h1 {
+            margin-top: 24px;
+            color: $whiteText;
+            margin-bottom: 6px;
+        }
+
+        h3 {
+            font-size: 18px;
+            font-weight: normal;
+            color: $whiteText;
+        }
+    }
+
+    &__align {
+        position: relative;
+        padding-top: 40px;
+    }
+
+    &__btn {
+        color: #fff;
+        text-decoration: none;
+        font-size: 18px;
+        padding: 20px 34px;
+        border: 1px solid #fff;
+        border-radius: 50px;
+        transition: 0.3s;
+        font-weight: 700;
+
+        &:hover {
+            background-color: #fff;
+            color: $bg-color;
+        }
+    }
+}

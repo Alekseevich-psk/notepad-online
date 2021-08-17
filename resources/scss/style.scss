@@ -1,1 +1,9 @@
-@import "resources/scss/setting/setting";
+// @import '~bootstrap/scss/bootstrap';
+@import "./setting/reset";
+@import "./setting/variables";
+@import "./setting/setting";
+
+@import "./common/auth-btn";
+
+@import "./page/index/index";
+@import "./page/auth/auth";

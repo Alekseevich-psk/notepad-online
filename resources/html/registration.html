@@ -1,0 +1,31 @@
+@@include('./chunks/head.html')
+<section class="main auth">
+    <div class="container">
+        <form action="#" method="POST" class="auth__form">
+            <h2>Создать аккаунт</h2>
+            <div class="auth__item">
+                <label for="name">Имя</label>
+                <input type="text" name="name" id="name" placeholder="Имя">
+            </div>
+            <div class="auth__item">
+                <label for="email">Email</label>
+                <input type="text" name="email" id="email" placeholder="E-mail">
+            </div>
+            <div class="auth__item">
+                <label for="Password">Пароль</label>
+                <input type="Password" name="Password" id="Password" placeholder="Пароль">
+            </div>
+            <div class="auth__item">
+                <label for="confirmPassword">Повторить пароль</label>
+                <input type="Password" name="confirmPassword" id="confirmPassword" placeholder="Повторить пароль">
+            </div>
+            <div class="auth__item">
+                <button type="submit" class="auth-btn auth__auth-btn">Зарегистрироваться</button>
+            </div>
+            <div class="auth__item">
+                <a href="#"><p>Войти</p></a>
+            </div>
+        </form>
+    </div>
+</section>
+@@include('./chunks/footer.html')

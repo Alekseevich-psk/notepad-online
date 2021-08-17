@@ -1,0 +1,31 @@
+// Font
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+$mainFont: "Open Sans",
+sans-serif;
+
+// Size
+$mainFontColor: #313538;
+$mainFontSize: 16px;
+$mainFontWeight: 400;
+$mainLineHeight: 1.5;
+
+$desktopWidth: 1600px;
+$smDesktopWidth: 1024px;
+$tableWidth: 768px;
+$smTableWidth: 640px;
+$phoneWidth: 480px;
+$smPhoneWidth: 320px;
+
+$black: #282A2C;
+$bg-color: #242527;
+$white: #fffefe;
+$whiteText: rgb(236, 230, 230);
+$active: #a1df10;
+$active-black: #3f5707;
+$opacityColor:#B8A8A8;
+$opacityColorFooter:#B8AAAA;
+$gray: #f2f2f2;
+
+$border: 1px solid #e0e0e0;
+$border-radius: 16px;
+$border-color: #C9C9C9;
